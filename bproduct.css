@@ -1,0 +1,10 @@
+.bottom{
+	background-color: red;
+}
+.navbar-nav a:hover{
+	color: orange;
+}
+hr{
+	color: red;
+	border: 1px solid;
+}

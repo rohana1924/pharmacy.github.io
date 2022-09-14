@@ -1,0 +1,155 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="boostrapmy.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"><span class="text-warning">AT</span>pharma</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactprofile.php">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="profile.php">My Account</a></li>
+            <li><a class="dropdown-item" href="mycartprofile.php">Cart</a></li>
+            <li><a class="dropdown-item" href="productprofile.php">Product</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link" href=""><strong><?php echo $_SESSION['user_name']?></strong></a><a class="nav-link" href="login.php">log out</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-xl">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="p11.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="p12.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="tablet2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<section id="about" class="about-section-padding">
+<div class="container bg-light">
+<div class="row">
+	<div class="col-lg-4 col-md-10 col-10">
+		<div class="about-img">
+		<img class="e" src="phhome.jpg">
+	</div>
+</div>
+		<div class="col-lg-8 col-md-10 col-10 ps-lg-5 mt-md-5">
+			<div class="about-text">
+		<h2>Welcome to Pharmaceutical Companie</h2>
+		<strong>For the first 50 years of your life the food industry is trying to make you fat. Then, the second 50 years, the pharmaceutical industry is treating you for everything.</strong></div>
+	</div>
+</div>
+</div>
+</section>
+<section class="Service">
+<div class="container">
+<div class="row">
+	<div class="col-md-3">
+
+		<div class="card text-center"><img class="card-img-top" src="tablet.jpg">
+			<div class="card-body"><h5>Pharmacist</h5>
+			<p>: a health-care professional licensed to engage in pharmacy with duties including dispensing prescription drugs, monitoring drug interactions, administering vaccines, and counseling patients regarding the effects and proper usage of drugs and dietary supplements. Synonyms Example Sentences Learn More About pharmacist</p></div>
+		</div>
+	</div>
+
+		<div class="col-md-3">
+		<div class="card text-center"><img class="card-img-top" src="tablet1.jpg">
+			<div class="card-body"><h5>Drug Store</h5>
+			<p>It can be either an independent pharmacy or belong to a hospital. However, if a pharmacy has to sell other goods, like cosmetics, first-aid supplies and others, it becomes a convenience store or simply drugstore. Drugstores used to widen their assortment of products, as it's a working method to turn profit.</p></div>
+		</div>
+	</div>
+
+			<div class="col-md-3">
+		<div class="card text-center"><img class="card-img-top" src="tablet2.jpg">
+			<div class="card-body"><h5>Tablet</h5>
+			<p>A tablet is a pharmaceutical oral dosage form (oral solid dosage, or OSD) or solid unit dosage form. Tablets may be defined as the solid unit dosage form of medicament or medicaments with suitable excipients. It comprises a mixture of active substances and excipients, usually in powder form, pressed or compacted from a powder into a solid dose.</p></div>
+		</div>
+	</div>
+			<div class="col-md-3">
+		<div class="card text-center"><img class="card-img-top" src="tablet4.jpg">
+			<div class="card-body"><h5>Medical shop</h5>
+			<p>A chemist or a chemist's is a shop where drugs and medicines are sold or given out, and where you can buy cosmetics and some household goods.</p></div>
+		</div>
+	</div>
+		
+	</div>
+	
+</section>
+
+<section class="contact bg-light">
+<div class="container">
+	<div class="contact">
+		<div><strong><h1>Visit Us</h1>
+Latur Maharasthra India<br>
+Mp.Nanand Tq.Nilanga<br>
+
+Phone: +91 9172281079<br>
+
+Email: rohantakekar19@gmail.com<br></strong></div>
+  </section>
+  <div class="bottom">
+  <div class="container">
+  	 <div class="row">
+    <div class="col-8">Copyright © All rights reserved.</div>
+    <div class="col-4">Website Designed by</div>
+  </div>
+  	 
+		
+	
+	
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

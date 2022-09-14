@@ -1,0 +1,18 @@
+.navbar-nav a:hover{
+	color: orange;
+}
+
+.about-section-padding {
+	margin-top: 50px;
+	padding: padding: 30px 50px;
+	
+	
+}
+hr{
+	color: red;
+	border: 1px solid;
+}
+.bottom{
+	background-color: red;
+	margin-top: 25%;
+}

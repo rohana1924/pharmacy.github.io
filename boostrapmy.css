@@ -1,0 +1,48 @@
+.navbar-nav a:hover{
+	color: orange;
+}
+.carousel-control-prev{
+	color: black;
+}
+.carousel-inner{
+	margin-right: 10%;
+	height: 800px;
+	width: 100%;
+
+}
+img{
+	height: 600px;
+	width: 100%;
+	margin-top: 20px;
+}
+.about-section-padding {
+	text-align: center;
+	
+	
+}
+.e{
+	width: 300px;
+	height: 300px;
+}
+.card{
+	height: 600px;
+}
+.card-img-top{width: 300px;
+	height: 300px;
+	}
+	.Service{margin-top: 5%;
+		padding: 30px 50px;
+
+	}
+	.contact
+	{padding: 30px 50px;
+text-align: center;
+margin-right: 10%;
+	margin-left: 10%;
+	}
+	h1{
+		color: gold;
+	}
+	.bottom{
+	background: red;
+	}

@@ -1,0 +1,21 @@
+
+.navbar-nav a:hover{
+	color: orange;
+}
+
+.bottom{
+	background-color: red;
+	margin-top: 20%;
+}
+h2{
+margin-left: 10%;
+}
+.col-5{
+	text-align: center;
+}
+.about-section-padding {
+	margin-top: 50px;}
+
+h3{
+	color: coral;
+}
